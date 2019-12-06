@@ -16,6 +16,10 @@ describe MiddleLetter do
   it "should return 'A'" do
     expect(subject.middle_letter("AAA")).to eq("A")
   end
+
+  it "should return 'AA'" do
+    expect(subject.middle_letter("AAAA")).to eq("AA")
+  end
 end
 
 # get_middle("test") # => "es"
