@@ -4,6 +4,10 @@
 
 class MiddleLetter
   def middle_letter(string)
-    string
+    if string.chars.size <= 2
+      return string
+    else
+      string[string.chars.size/2]
+    end
   end
 end
